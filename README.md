@@ -102,6 +102,6 @@ For example:
 2. A zombie ignores VoidAnomaly.
 3. VoidAnomaly attacks the zombie.
 4. The zombie targets VoidAnomaly for `provokedTimeSeconds`.
-5. After the timer expires, the zombie can go back to ignoring Nick.
+5. After the timer expires, the zombie can go back to ignoring VoidAnomaly.
 
 If `groupAggro` is enabled, nearby mobs of the same entity type also become provoked.
