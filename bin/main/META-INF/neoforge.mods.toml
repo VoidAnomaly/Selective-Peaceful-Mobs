@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="selectivepeacefulmobs"
+version="1.0.0"
+displayName="Selective Peaceful Mobs"
+authors="Nick Tolman"
+displayURL="https://modrinth.com/project/selective-peaceful-mobs"
+logoFile="icon.png"
+description='''Per-player peaceful hostile mobs unless provoked.'''
+
+[[mixins]]
+config="selectivepeacefulmobs.mixins.json"
+
+[[dependencies.selectivepeacefulmobs]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.231,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.selectivepeacefulmobs]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"

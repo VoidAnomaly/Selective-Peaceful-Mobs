@@ -1,0 +1,55 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Minecraft / NeoForge run output
+run/
+runs/
+logs/
+crash-reports/
+debug/
+saves/
+options.txt
+optionsof.txt
+servers.dat
+usercache.json
+usernamecache.json
+
+# Generated data cache
+src/generated/**/.cache/
+
+# IDE and editor files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# Package artifacts
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Keep the Gradle wrapper jar even though release jars are ignored above.
+!gradle/wrapper/gradle-wrapper.jar
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
